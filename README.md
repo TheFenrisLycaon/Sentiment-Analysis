@@ -7,7 +7,7 @@ This repository holds the source code for the Minor project made for the 4th Sem
 The Dataset is palced inside a directory named ```Data```.  
 The directory structure should be like :  
 
-```
+```bash
 Data  
     |__ Emotion1  
         |__ img_1  
@@ -25,5 +25,5 @@ Data
     |...  
 ```
 
-The main jupyter notebook is placed under the main directory.  
+The main script is placed under the main directory.  
 The Trained models will be placed inside ```/bin```
