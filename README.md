@@ -44,7 +44,7 @@ python src/train.py
 
 ```bash
 cd src
-python main.py
+python src/main.py
 ```
 
 * To capture the frame at any point press `SPACEBAR`. The image will be saved in `logs`.
