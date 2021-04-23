@@ -1,5 +1,6 @@
 *.ipynb_checkpoints*
 *.vscode*
-*bin*
-*docs*
 *Data*
+*docs*
+*__pycache__*
+.directory
