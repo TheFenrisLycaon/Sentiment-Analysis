@@ -4,3 +4,5 @@
 *docs*
 *__pycache__*
 .directory
+events.log
+logs/*.jpg
