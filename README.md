@@ -9,7 +9,11 @@ This repository holds the source code for the Minor project made for the 4th Sem
 ## Dependencies
 
 * Python 3.8, [OpenCV](https://opencv.org/), [Tensorflow](https://www.tensorflow.org/)
-* To install the required packages, run `pip install -r requirements.txt`.
+* To install the required packages, run (after cloning the repo)
+
+```bash
+pip install -r requirements.txt
+```
 
 ## Basic Usage
 
@@ -34,7 +38,6 @@ python src/dataGen.py
 * To train this model, use:  
 
 ```bash
-cd src
 python src/train.py
 ```
 
@@ -43,7 +46,6 @@ python src/train.py
 * If you want to view the predictions without training again, you can simply run:  
 
 ```bash
-cd src
 python src/main.py
 ```
 
