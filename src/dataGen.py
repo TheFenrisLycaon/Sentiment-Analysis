@@ -51,6 +51,7 @@ try:
     mat = np.zeros((48, 48), dtype=np.uint8)
 except Exception:
     log("[ Failed ] Data CSV not found.")
+    exit()
 
 
 log("[ Processing ]\tSaving images")
