@@ -50,7 +50,7 @@ try:
     df = pd.read_csv('Data/fer2013.csv')
     mat = np.zeros((48, 48), dtype=np.uint8)
 except Exception:
-    log("[ Failed ] Data CSV not found.")
+    log("[ Failed ]\tData CSV not found.")
     exit()
 
 
