@@ -1,10 +1,18 @@
 # Sentiment Analysis using Python
 
+---
+<br>
+
 ## Introduction
 
 This project aims to classify the emotion on a person's face into one of **seven categories**, using deep convolutional neural networks. The model is trained on the **FER-2013** dataset which was published on International Conference on Machine Learning (ICML). This dataset consists of 35887 grayscale, 48x48 sized face images with **seven emotions** - angry, disgusted, fearful, happy, neutral, sad and surprised.  
 
 This repository holds the source code for the Minor project made for the 4th Semester of BE-CSE(IoT).  
+  
+<br>
+
+---
+<br>
 
 ## Dependencies
 
@@ -14,6 +22,10 @@ This repository holds the source code for the Minor project made for the 4th Sem
 ```bash
 pip install -r requirements.txt
 ```
+
+---
+<br>
+
 
 ## Basic Usage
 
@@ -51,6 +63,11 @@ python src/main.py
 
 * To capture the frame at any point press `SPACEBAR`. The image will be saved in `logs`.
 * Press `ESC` to exit.
+
+<br>
+
+---
+<br>
 
 * The final folder structure is of the form:  
 
@@ -96,9 +113,21 @@ python src/main.py
 |__ requirements.txt
 ```
 
-* This implementation by default detects emotions on all faces in the webcam feed. With a simple 4-layer CNN, the test accuracy reached 63.2% in 50 epochs.
+<br>
+
+---
+<br>
+
+* This implementation by default detects emotions on all faces in the webcam feed. With a simple 4-layer CNN, the test accuracy reached 63.2% in 50 epochs.  
+
+<br>
 
 ![Accuracy plot](logs/plot.png)
+
+<br>
+
+---
+<br>
 
 ## Algorithm
 
@@ -108,4 +137,13 @@ python src/main.py
 
 * The network outputs a list of **softmax scores** for the seven classes of emotions.
 
-* The emotion with maximum score is displayed on the screen.
+* The emotion with maximum score is displayed on the screen.  
+
+<br>
+
+---
+<br>
+
+## Example
+
+[You can see the examples here](examples.md)

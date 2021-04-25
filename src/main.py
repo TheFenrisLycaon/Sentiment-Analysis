@@ -34,7 +34,7 @@ while True:
     faces = facecasc.detectMultiScale(gray, scaleFactor=1.3, minNeighbors=5)
 
     for (x, y, w, h) in faces:
-        cv2.rectangle(frame, (x, y-50), (x+w, y+h+10), (0, 0, 0), 1)
+        cv2.rectangle(frame, (x, y-50), (x+w, y+h+10), (0, 0, 0), 2)
         roi_gray = gray[y:y + h, x:x + w]
         cropped_img = np.expand_dims(np.expand_dims(
             cv2.resize(roi_gray, (48, 48)), -1), 0)
