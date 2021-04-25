@@ -27,7 +27,8 @@ while True:
         break
 
     facecasc = cv2.CascadeClassifier(
-        cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
+            cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
+
 
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     faces = facecasc.detectMultiScale(gray, scaleFactor=1.3, minNeighbors=5)

@@ -7,7 +7,7 @@ def log(s):
     f.writelines(f"[{date}]\t{s}\n")
     f.close()
 
-log("[Processing]\t Getting Imports")
+log("[Processing]\tGetting Imports")
 
 import os
 
