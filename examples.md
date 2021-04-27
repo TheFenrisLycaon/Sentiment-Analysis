@@ -14,7 +14,7 @@ If you followed all teh steps correctly, you should see someting like this (ofc 
 
 ## Group
 
-TODO :: [ADD IMAGES](https://www.github.com/TheFenrisLycaon/Sentiment-Analysis/issues/#1)
+![Multiface](logs/Multiface.png)
 
 <br>
 
@@ -23,6 +23,7 @@ TODO :: [ADD IMAGES](https://www.github.com/TheFenrisLycaon/Sentiment-Analysis/i
 
 ## Video
 
-TODO :: [ADD VIDEO](https://www.github.com/TheFenrisLycaon/Sentiment-Analysis/issues/#1)
+![Demo](logs/Demo.gif)
+
 
 [Return Home](README.md)
