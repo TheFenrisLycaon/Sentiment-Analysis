@@ -11,7 +11,7 @@ log("[Processing]\tGetting Imports")
 
 import os
 
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 os.environ['TF_XLA_FLAGS'] = '--tf_xla_enable_xla_devices'
 
 import numpy as np
